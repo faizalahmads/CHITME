@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9F3434"
+    tools:context=".Chps2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="DAFTAR CHEAT PS2"
+        android:textAlignment="center"
+        android:textColor="#EBE4A5"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/avatar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#19424E"
+                android:textColor="#EBE4A5"
+                android:gravity="center"
+                android:text="avatar" />
+
+            <Button
+                android:id="@+id/basara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#19424E"
+                android:gravity="center"
+                android:text="basara"
+                android:textColor="#EBE4A5" />
+
+            <Button
+                android:id="@+id/bmx"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#19424E"
+                android:gravity="center"
+                android:text="bmx xxx"
+                android:textColor="#EBE4A5" />
+
+            <Button
+                android:id="@+id/bully"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#19424E"
+                android:gravity="center"
+                android:text="bully"
+                android:textColor="#EBE4A5" />
+
+            <Button
+                android:id="@+id/gtasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#19424E"
+                android:gravity="center"
+                android:text="GTA: San Andreas"
+                android:textColor="#EBE4A5" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/iklan">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

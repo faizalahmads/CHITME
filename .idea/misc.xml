@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_avatar.xml" value="0.358695652173913" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_basara.xml" value="0.358695652173913" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_bmx.xml" value="0.358695652173913" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_bully.xml" value="0.35260416666666666" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_chps1.xml" value="0.358695652173913" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_chps2.xml" value="0.358695652173913" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_ctr.xml" value="0.358695652173913" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_gtasa.xml" value="0.35260416666666666" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_splashscreen.xml" value="0.358695652173913" />
+        <entry key="..\:/faizaru/CHITME/app/src/main/res/layout/activity_trixtreme.xml" value="0.358695652173913" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

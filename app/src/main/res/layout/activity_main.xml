@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgh"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/foto1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        ads:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/ps1">
+
+        <ImageView
+            android:id="@+id/ps1h"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ps1"
+            android:background="#F4947C"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/foto2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        ads:cardCornerRadius="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/ps2">
+
+        <ImageView
+            android:id="@+id/ps2h"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#51446A"
+            android:src="@drawable/ps2" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/iklan">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>
